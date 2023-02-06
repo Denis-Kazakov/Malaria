@@ -5,4 +5,8 @@ Data source: Tensorflow datasets https://www.tensorflow.org/datasets/catalog/mal
 
 All images have different sizes. Looks like they all have black background so padding is an option. But it would increase volume of data so I used convolution layers first followed by global pooling before fully connected layers.
 
-This is the first attempt on my local computer. Too long to wait as I did not have GPU.
+I also tried to select the optimum network architecture with automatic Bayesian and Hyperband search, but Google Colab crashes when there is more then 7 convolution layers, so part of the optimization was manual.
+
+Numbered notebooks are different attempts at optimization.
+
+Maximum accuracy achieved on the test set: 95.4%.
