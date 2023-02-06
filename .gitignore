@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+data/
+env/
+untitled_project/
+github_acces*
+*.csv
+*.png
+*.JPG
+*.npy
+*.jpg
